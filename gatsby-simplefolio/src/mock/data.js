@@ -19,10 +19,10 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.png',
   paragraphOne:
-    'Ruby, Rails, Reactを主に書いているWebエンジニアです。バックエンドからフロントエンドまで一通り触っています。インフラもちょこっと触ります。',
+    'Ruby, Rails, Reactを主に書いているWebエンジニアです。インフラもちょこっと触ります。',
   paragraphTwo:
     '5年ほどSESで金融系業務システムやコンシューマ向けWebアプリケーション開発を経験した後。Web系へ転職しました。',
-  paragraphThree: '娘が二人います（2017年生、2019年生）。日本酒とボドゲが好きです。',
+  paragraphThree: '娘が二人います。日本酒とボドゲが好きです。',
   resume: '', // if no resume, the button will not show up
 };
 
@@ -30,31 +30,13 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: 'TBD',
-    info: 'TBD',
-    info2: 'TBD',
-    url: 'TBD',
-    repo: 'TBD', // if no repo, the button will not show up
+    img: 'qiita.jpg',
+    title: 'Qiita',
+    info: 'Qiitaは、エンジニアリングに関する知識を記録・共有するためのサービスです。',
+    info2: 'エンジニアとして、機能開発に携わりました。',
+    url: 'https://qiita.com',
+    repo: '', // if no repo, the button will not show up
   },
-  // {
-  //   id: nanoid(),
-  //   img: 'project.jpg',
-  //   title: '',
-  //   info: '',
-  //   info2: '',
-  //   url: '',
-  //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  // },
-  // {
-  //   id: nanoid(),
-  //   img: 'project.jpg',
-  //   title: '',
-  //   info: '',
-  //   info2: '',
-  //   url: '',
-  //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  // },
 ];
 
 // CONTACT DATA
