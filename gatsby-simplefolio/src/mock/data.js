@@ -29,7 +29,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'qiita.png',
+    img: 'Qiita.png',
     title: 'Qiita',
     info: 'Qiitaは、エンジニアリングに関する知識を記録・共有するためのサービスです。',
     info2: 'エンジニアとして、機能開発に携わりました。',
