@@ -20,8 +20,7 @@ export const aboutData = {
   img: 'profile.png',
   paragraphOne:
     'Ruby, Rails, Reactを主に書いているWebエンジニアです。インフラもちょこっと触ります。',
-  paragraphTwo:
-    '5年ほどSESで金融系業務システムやコンシューマ向けWebアプリケーション開発を経験した後。Web系へ転職しました。',
+  paragraphTwo: '5年ほどSESでを経験した後。自社サービス開発に携わりたいと思いWeb系へ転職しました。',
   paragraphThree: '娘が二人います。日本酒とボドゲが好きです。',
   resume: '', // if no resume, the button will not show up
 };
@@ -30,7 +29,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'qiita.jpg',
+    img: 'qiita.png',
     title: 'Qiita',
     info: 'Qiitaは、エンジニアリングに関する知識を記録・共有するためのサービスです。',
     info2: 'エンジニアとして、機能開発に携わりました。',
